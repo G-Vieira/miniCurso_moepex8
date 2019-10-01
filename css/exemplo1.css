@@ -10,11 +10,16 @@ table{
   width: 214px;
 }
 #centralizado{
-  margin-left: 35%;
+  margin-left: calc(100% - 65%);
 }
 li > a{
   color: #000!important;
 }
 input{
   margin-bottom: 10px;
+}
+@media(max-width: 663px){
+  #centralizado {
+    margin-left: calc(100% - 80%);
+  }
 }
